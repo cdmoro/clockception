@@ -1,4 +1,4 @@
-# Word O’Clock
+# Clockception
 
 A clock made of clocks!
 
@@ -62,14 +62,6 @@ If you want to use this clock as a screensaver there are several ways to address
 ## Themes
 
 Some nice themes, locale and font combinations!
-
-### Photo
-
-https://clockception.netlify.app/?theme=photo-system
-
-|Fuzzy| Fuzzy + Solid |
-|---|---|
-|![image](https://github.com/user-attachments/assets/05c47c65-a885-4222-9cf4-22f521b8c524)|![image](https://github.com/user-attachments/assets/b3ef48fd-8e45-4932-a682-0239a93b15e3)|
 
 ## Development
 

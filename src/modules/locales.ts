@@ -54,18 +54,18 @@ export function initLocale() {
   localeSelect?.addEventListener('change', (e) => {
     const locale = (e.target as HTMLInputElement).value as Locale;
     setClockType(locale);
-    const { drawClock, highlightClock } = getClockMethods(locale);
+    // const { drawClock, highlightClock } = getClockMethods(locale);
 
     translateStrings(locale);
     store.set('locale', locale);
     document.documentElement.dir = RTL_LOCALES.includes(locale) ? 'rtl' : 'ltr';
     // store.set('flex', FLEX_CLOCK_LOCALES.includes(locale));
 
-    drawClock();
+    // drawClock();
 
     document.body?.classList.add('no-transitions');
 
-    highlightClock();
+    // highlightClock();
   });
 }
 

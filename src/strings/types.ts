@@ -81,6 +81,7 @@ export type Translations = {
   title: string;
   'tr-TR': string;
   whatsapp: string;
+  wireframe: string;
   work_mode: string;
   work_mode_title: string;
   x: string;
